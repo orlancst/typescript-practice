@@ -56,10 +56,12 @@ for (let libro of libros) {
 
 //----------------------------------------------------------------
 
-//declaramos un arrar en que solo puede contener datos de tipo number
+//declaramos un array en que solo puede contener datos de tipo number
 let listadoNumeros:number[] = [10, 20, 30, 40];
 listadoNumeros.push(50) // funciona
 //listadoNumeros.push('A') // no funciona
+
+//let listadoVacio: [] = [1];  -> listado que esta vacio
 
 //Array que permite tanto valores string como valores number
 let listadoRandom:(string | number)[] = [1, 2, "A", "B"]
